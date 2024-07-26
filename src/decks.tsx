@@ -1,40 +1,36 @@
 import { ActionPanel, List, Icon, Action } from "@raycast/api";
 import { showToast, Toast } from "@raycast/api";
-import listData from './decks.json';
-
-
+import listData from "./decks.json";
 
 export default function Command() {
-  
   return (
-    <List 
-    isLoading
-    isShowingDetail
-    navigationTitle="Decks"
-    searchBarPlaceholder="Searching by Deck name...">
-      
+    <List
+      isLoading
+      isShowingDetail
+      navigationTitle="Decks"
+      searchBarPlaceholder="Searching by Deck name..."
+    >
       {listData.map((item, index) => (
         <List.Item
           key={index}
-        //  icon={'🎨' }
+          //  icon={'🎨' }
           title={item.Name}
           subtitle={item.Effect}
-          detail={
-            <List.Item.Detail
-              markdown={generateMarkdown(item)}
-            />
-          }
-
+          detail={<List.Item.Detail markdown={generateMarkdown(item)} />}
           actions={
             <ActionPanel>
               <Action
-        title="Unlock"
-        icon={Icon.LockUnlocked}
-        onAction={() => {
-          const unlockRequirement = item.UnlockRequirement;
-          showToast({ title: "Unlock Requirement", message: unlockRequirement, style: Toast.Style.Success });
-        }}
-      />
+                title="Unlock"
+                icon={Icon.LockUnlocked}
+                onAction={() => {
+                  const unlockRequirement = item.UnlockRequirement;
+                  showToast({
+                    title: "Unlock Requirement",
+                    message: unlockRequirement,
+                    style: Toast.Style.Success,
+                  });
+                }}
+              />
             </ActionPanel>
           }
         />
@@ -43,9 +39,8 @@ export default function Command() {
   );
 }
 
-
 function generateMarkdown(item: any): string {
-return `
+  return `
 # ${item.Name}
 
  ![](decks/${item.Appearance}?raycast-width=122&raycast-height=164)

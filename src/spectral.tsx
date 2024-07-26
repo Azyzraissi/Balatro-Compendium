@@ -1,37 +1,29 @@
 import { List } from "@raycast/api";
-import listData from './spectral.json';
+import listData from "./spectral.json";
 
 export default function Command() {
-  
   return (
-    <List 
-    isLoading
-    isShowingDetail
-    navigationTitle="Spectral Cards"
-    searchBarPlaceholder="Searching by Spectral's name...">
-      
+    <List
+      isLoading
+      isShowingDetail
+      navigationTitle="Spectral Cards"
+      searchBarPlaceholder="Searching by Spectral's name..."
+    >
       {listData.map((item, index) => (
         <List.Item
           key={index}
-         // icon={'👻' }
+          // icon={'👻' }
           title={item.Name}
           subtitle={item.Effect}
-          detail={
-            <List.Item.Detail
-              markdown={generateMarkdown(item)}
-            />
-          }
-
-
+          detail={<List.Item.Detail markdown={generateMarkdown(item)} />}
         />
       ))}
     </List>
   );
 }
 
-
 function generateMarkdown(item: any): string {
-return `
+  return `
 # ${item.Name}
 
  ![](spectral/${item.Appearance}?raycast-width=122&raycast-height=164)
@@ -40,4 +32,3 @@ return `
 ${item.Effect}
 `;
 }
-

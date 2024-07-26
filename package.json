@@ -43,7 +43,6 @@
       "description": "Display all Planets from Balatro",
       "mode": "view"
     },
-
     {
       "name": "spectral",
       "title": "Spectral",
@@ -52,7 +51,6 @@
       "description": "Display all Spectral Cards from Balatro",
       "mode": "view"
     },
-
     {
       "name": "voucher",
       "icon": "voucher.png",

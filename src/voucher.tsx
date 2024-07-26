@@ -1,54 +1,45 @@
 import { ActionPanel, List, Action, Icon } from "@raycast/api";
 import { showToast, Toast } from "@raycast/api";
-import listData from './voucher.json';
+import listData from "./voucher.json";
 
 export default function Command() {
-
-
   return (
-    
-    <List 
-    isLoading
-    isShowingDetail
-    navigationTitle="Vouchers"
-    searchBarPlaceholder="Searching by Voucher name...">
-      
+    <List
+      isLoading
+      isShowingDetail
+      navigationTitle="Vouchers"
+      searchBarPlaceholder="Searching by Voucher name..."
+    >
       {listData.map((item, index) => (
         <List.Item
           key={index}
-        //  icon={'🎟️' }
+          //  icon={'🎟️' }
           title={item.Name}
           subtitle={item.Effect}
-          detail={
-            <List.Item.Detail
-              markdown={generateMarkdown(item)}
-              
-            />
-            
-          }
-actions={
-  <ActionPanel>
+          detail={<List.Item.Detail markdown={generateMarkdown(item)} />}
+          actions={
+            <ActionPanel>
               <Action
-      title="Upgrade"
-      icon={Icon.Stars}
-      onAction={() => { 
-        showToast(Toast.Style.Success, "Upgraded Voucher:", `${item.Upgrade}`);
-      }}
-    
-    />
-            </ActionPanel> }
-
-          
+                title="Upgrade"
+                icon={Icon.Stars}
+                onAction={() => {
+                  showToast(
+                    Toast.Style.Success,
+                    "Upgraded Voucher:",
+                    `${item.Upgrade}`,
+                  );
+                }}
+              />
+            </ActionPanel>
+          }
         />
       ))}
-      
     </List>
   );
 }
 
-
 function generateMarkdown(item: any): string {
-return `
+  return `
 # ${item.Name}
 
  ![](vouchers/${item.Appearance}?raycast-width=108.56&raycast-height=171.12)
