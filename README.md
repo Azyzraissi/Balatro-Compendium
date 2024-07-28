@@ -1,6 +1,6 @@
-<div align="center"><img src="assets/extension_icon.png" width="64"></div>
+<div align="center"><img src="media/extension_icon.png" width="64"></div>
 
-# 🎩 Balatro Compendium for Raycast
+# 🎩 Balatro Compendium
 
 [![Raycast - Store](https://img.shields.io/static/v1?label=Raycast&message=Store&color=%23FF6363&logo=raycast&logoColor=%23FF6363)](https://www.raycast.com/store)
 [![License](https://img.shields.io/badge/License-MIT-blue)](#license "Go to license section")
@@ -8,30 +8,31 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcomed-brightgreen.svg?style=flat)](https://github.com/Azyzraissi/Balatro-Compendium/pulls)
 [![Threads](https://img.shields.io/badge/Azyz.raw-000000?style=social&logo=Threads&logoColor=black)](https://www.threads.net/azyz.raw)
 
-Welcome to the **Balatro Compendium** for Raycast! This Extension is your ultimate local database for the game Balatro. With it, you can search through every piece of the Balatro collection in a <i>flush</i>. Whether you're hunting for Jokers, Tarot Cards, or any other collectible, Balatro Compendium has got you covered—**even offline**!
+Welcome to the **Balatro Compendium** for Raycast, your ultimate database for the game Balatro. With it, you can search through every piece of the Balatro collection in a <i>flush</i>. Whether you're hunting for Jokers, missing Decks, or any other collectible, Balatro Compendium has got you covered—**even offline**!
 
 ## 🚀 Features
-- **Easy browsing**: Effortlessly explore the Balatro collection by categories.
-- **Spoiler shield**: Decide if you want to see the unlocking conditions for certain elements.
-- **Price display**: Check out the price of items available in the in-game shop.
+- **Efficent Design**: Details for every element have been designed to display the text and the visual asset in a single screen while preserving the elegance of Balatro pixelart assets. 
+- **Easy Browsing**: Effortlessly explore the Balatro collection by categories with full keyboard support.  
+- **Spoiler Shield**: Decide if you want to see the unlocking conditions for unlockable elements to preserve the <i>surprise magic effect</i> of Balatro.
+- **Price/Rarity Display**: Check out Jokers rarity in the detailed panel and the price of in-shop elements. 
 
 ## 🔮 Categories
-Here's a quick look at what you can browse with Balatro Compendium:
+Here's a quick look at what you can browse with **Balatro Compendium**:
 
 | Badge | Collectible         |
 |------|------------------|
-| ![Jokers](assets/jokers.png)   | Jokers           |
-| ![Tarot Cards](assets/tarot.png) | Tarot Cards      |
-| ![Decks](assets/decks.png) | Decks      |
-| ![Planets](assets/planet.png) | Planets     |
-| ![Spectral Cards](assets/spectral.png)   | Spectral Cards   |
-| ![Vouchers](assets/voucher.png)   | Vouchers         |
-| ![Upgraded Vouchers](assets/voucherplus.png)   | Upgraded Vouchers         |
-| ![Enhancements](assets/enhancement.png)   | Enhancements         |
-| ![Seals](assets/seals.png)   | Seals         |
-| ![Skip Tags](assets/tag.png)   | Skip Tags        |
-| ![Blinds](assets/blinds.png)   | Blinds         |
-| ![Boosters](assets/booster.png)   | Boosters         |
+| ![Jokers](media/jokers.png)   | Jokers           |
+| ![Tarot Cards](media/tarot.png) | Tarot Cards      |
+| ![Decks](media/decks.png) | Decks      |
+| ![Planets](media/planet.png) | Planets     |
+| ![Spectral Cards](media/spectral.png)   | Spectral Cards   |
+| ![Vouchers](media/voucher.png)   | Vouchers         |
+| ![Upgraded Vouchers](media/voucherplus.png)   | Upgraded Vouchers         |
+| ![Enhancements](media/enhancement.png)   | Enhancements         |
+| ![Seals](media/seals.png)   | Seals         |
+| ![Skip Tags](media/tag.png)   | Skip Tags        |
+| ![Blinds](media/blinds.png)   | Blinds         |
+| ![Boosters](media/booster.png)   | Boosters         |
 
 ## 🛠️ Installation
 - Search for "Balatro Compendium" in the Raycast Store and install the extension.
@@ -42,10 +43,11 @@ Here's a quick look at what you can browse with Balatro Compendium:
 3. Navigate through the list to find detailed information about each item.
 
 ## 📦 Upcoming Features
-**Community Mods support**: Soon you'll be able to enhance your experience with community-created Mods. Join the officiel Balatro Discord to stay up-to-date with Mods developement.
+-**Community Mods support**: Soon you'll be able to enhance your experience with community-created Mods. Don't hesitate to join the officiel Balatro Discord to stay up-to-date with Mods developement.
 
 ## ❤️ Contributing
-I love contributions and connecting with people! If you have any cool ideas, suggestions or find any bugs, feel free to create an issue or submit a pull request. 
+I love contributions and connecting with people! If you have any cool ideas, suggestions or find any bugs, feel free to create an issue or submit a pull request.
+Check out the [Raycast Developers Documentation](https://developers.raycast.com/basics/contribute-to-an-extension) to know how to contribute to an Extension.
 
 ## 📜 License
 This project is under the MIT License. Check out the [LICENSE](LICENSE) file for more details.
