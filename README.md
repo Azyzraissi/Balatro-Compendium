@@ -2,6 +2,7 @@
 
 # 🎩 Balatro Compendium
 
+
 [![Raycast - Store](https://img.shields.io/static/v1?label=Raycast&message=Store&color=%23FF6363&logo=raycast&logoColor=%23FF6363)](https://www.raycast.com/store)
 [![License](https://img.shields.io/badge/License-MIT-blue)](#license "Go to license section")
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
@@ -9,6 +10,8 @@
 [![Threads](https://img.shields.io/badge/Azyz.raw-000000?style=social&logo=Threads&logoColor=black)](https://www.threads.net/azyz.raw)
 
 Welcome to the **Balatro Compendium** for Raycast, your ultimate database for the game Balatro. With it, you can search through every piece of the Balatro collection in a <i>flush</i>. Whether you're hunting for Jokers, missing Decks, or any other collectible, Balatro Compendium has got you covered—**even offline**!
+
+<a title="Install balatro-compendium Raycast Extension" href="https://www.raycast.com/azyz/balatro-compendium"><img src="https://www.raycast.com/azyz/balatro-compendium/install_button@2x.png?v=1.1" height="64" alt="" style="height: 64px;"></a>
 
 ## 🚀 Features
 
@@ -39,6 +42,8 @@ Here's a quick look at what you can browse with **Balatro Compendium**:
 ## 🛠️ Installation
 
 - Search for "Balatro Compendium" in the Raycast Store and install the extension.
+
+<a title="Install balatro-compendium Raycast Extension" href="https://www.raycast.com/azyz/balatro-compendium"><img src="https://www.raycast.com/azyz/balatro-compendium/install_button@2x.png?v=1.1" height="64" alt="" style="height: 64px;"></a>
 
 ## 💡 Usage
 
